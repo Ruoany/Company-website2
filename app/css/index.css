@@ -1,0 +1,1186 @@
+/*********************************通用样式********************************************/
+body{
+    color: #000;
+    font-family: SourceHanSansSC-Normal;
+    overflow-x: scroll;
+}
+a{
+    color: #999;
+}
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/*********************************头部导航栏样式********************************************/
+#head{
+    min-width: 1000px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+  
+}
+#head .hr_head{
+    background:#000 !important;   
+}
+#head  .navbar{
+    background-color: #000;  
+}
+#head  img{
+    width: 75px;
+    height: 61px;
+}
+
+#head .logo{
+    margin-left: -1.5rem;
+    margin-top: 1.5rem;
+    float:right;
+}
+
+#head .logo p{
+    line-height: 0.5rem;
+    text-align: center;
+    font-family: SourceHanSansSC-Medium;
+    color: #fff;
+    
+}
+
+#head .logo p:first-child{
+    font-size: 28px;
+}
+#head .logo p:last-child{
+    font-size: 18px;
+}
+
+#head .bg-light{
+    background-color: #000;
+}
+
+.navbar-nav .nav-item .nav-link{
+     color: #fff;
+     font-size: 20px;
+     border-bottom: #007bff;
+}
+.navbar-nav .nav-item .hr-link{
+   color: #007bff;
+   border-bottom: 2px solid #007bff;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #007bff;   
+}
+
+/*********************************轮播图样式********************************************/
+#carousel {
+    min-width: 2500px;
+    margin-top: 88px;
+    width: 100%;
+}
+
+
+
+/*********************************蓝牙5.2样式********************************************/
+#bluetooth{
+    background:  url(../img/bluetooth-footer.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 222px;
+    margin-bottom: 163px;
+    min-width: 2500px;
+}
+#bluetooth .container{
+    /* margin-left: 575px; */
+}
+#bluetooth .container .bluetooth-top-left{
+    width: 411px;
+    height: 431px;
+    background-color: #007bff;
+    position: absolute;
+    margin-top: -81px;
+    margin-left: -43px;
+}
+
+#bluetooth .container .bluetooth-top-left .one img{
+    width: 60px;
+    height: 69px;
+    margin-left: 36px;
+    margin-top: 33px;
+}
+#bluetooth .container .bluetooth-top-left .one p{
+   font-size: 16px;
+   color: #fff;
+   font-weight: bold;
+   font-family: SourceHanSansSC-Medium;
+   margin-left: 67px;
+   margin-top: -15px;
+   border-bottom: 2px solid #fff;
+   width: 58px;
+}
+
+#bluetooth .container .bluetooth-top-left .two {
+   position: absolute;
+   margin-top: -109px;
+   margin-left: 300px;
+   width: 180px;
+   
+}
+#bluetooth .container .bluetooth-top-left .two img{
+    width: 61px;
+    height: 61px;
+   
+}
+#bluetooth .container .bluetooth-top-left .two span{
+   color: #fff;
+   font-size: 19px;
+   font-weight: bold;
+   font-family: SourceHanSansSC-Medium;
+}
+
+#bluetooth .container .bluetooth-top-left .three{
+    color: #fff;
+    font-size: 14px;
+    width: 271px;
+    margin: 0 auto;
+    text-indent:2em;
+    font-family: SourceHanSansSC-Normal;
+ }
+
+ #bluetooth .container .bluetooth-top-left .four{
+      margin-left: 23px;
+      width: 100px;
+      margin-top: 100px;
+      line-height: 7px;
+ }
+ #bluetooth .container .bluetooth-top-left .four p{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Medium;
+}
+#bluetooth .container .bluetooth-top-left .four img{
+     width: 60px;
+     height: 60px;
+     margin-left: 5px;
+     
+}
+#bluetooth .container .bluetooth-top-right{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 545px;
+}
+
+#bluetooth .container .bluetooth-top-right .one .head{
+    width: 231px;
+    height: 156px;
+    background: #007bff;
+    margin-top: -80px; 
+    margin-left: 55px;
+    line-height: 8px;
+    color: #fff;
+    text-align: center;
+
+}
+#bluetooth .container .bluetooth-top-right .one img{
+    margin-left: 123px;
+}
+#bluetooth .container .bluetooth-top-right .one .head p:first-child{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .one .head p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .one .head p:nth-child(3){
+    font-size: 12px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .one .footer{
+    width: 231px;
+    height: 231px;
+    background: #fff;
+    box-shadow: 3px 5px 41px 2px 
+		rgba(0, 0, 0, 0.46);
+    opacity: 0.7;
+    margin-left: 55px;
+}
+#bluetooth .container .bluetooth-top-right .one .footer p{
+    width: 174px;
+    text-indent: 2rem;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#bluetooth .container .bluetooth-top-right .two .head{
+    width: 231px;
+    height: 156px;
+    background: #007bff;
+    margin-left: 19px;
+    margin-top: -80px; 
+    line-height: 8px;
+    color: #fff;
+    text-align: center;  
+}
+#bluetooth .container .bluetooth-top-right .two img{
+    margin-left: 90px;
+}
+#bluetooth .container .bluetooth-top-right .two .head p:first-child{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .two .head p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .two .head p:nth-child(3){
+    font-size: 12px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .two .footer{
+    width: 231px;
+    height: 231px;
+    background: #fff;
+    box-shadow: 3px 5px 41px 2px 
+		rgba(0, 0, 0, 0.46);
+    opacity: 0.7;
+    margin-left: 25px;
+    opacity: 0;
+}
+#bluetooth .container .bluetooth-top-right .two .footer p{
+    width: 174px;
+    text-indent: 2rem;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#bluetooth .container .bluetooth-top-right .three .head{
+    width: 231px;
+    height: 156px;
+    background: #007bff;
+    margin-left: 19px;
+    margin-top: -80px;  
+    line-height: 8px;
+    color: #fff;
+    text-align: center; 
+}
+#bluetooth .container .bluetooth-top-right .three img{
+    margin-left: 90px;
+}
+#bluetooth .container .bluetooth-top-right .three .head p:first-child{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .three .head p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .three .head p:nth-child(3){
+    font-size: 12px;
+    font-weight: bold;
+    font-family: SourceHanSansSC-Normal;
+}
+#bluetooth .container .bluetooth-top-right .three .footer{
+    width: 231px;
+    height: 231px;
+    background: #fff;
+    box-shadow: 3px 5px 41px 2px 
+		rgba(0, 0, 0, 0.46);
+    opacity: 0.7;
+    margin-left: 25px;
+    opacity: 0;
+    
+}
+#bluetooth .container .bluetooth-top-right .three .footer p{
+    width: 174px;
+    text-indent: 2rem;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#bluetooth .container .bluetooth-bottom{
+    display: flex;
+    width: 1515px;
+    justify-content: space-around;
+    padding-top: 437px;
+}
+#bluetooth .container .bluetooth-bottom div{
+    width: 200px;
+    height: 200px;
+    
+}
+#bluetooth .container .bluetooth-bottom .one{
+    text-align: center;
+    line-height: 60px;
+    padding-top: 51px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    z-index: 2;
+}
+
+#bluetooth .container .bluetooth-bottom .one img{
+    width: 49px;
+    height: 49px;
+
+}
+
+#bluetooth .container .bluetooth-bottom .px-one-content .one-content{
+    width: 245px;
+    height: 245px;
+    margin-top: -45px;
+    margin-left: -227px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    opacity: 0;
+
+    
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-one-content .one-content .borders{
+   border: 4px solid #007bff;
+   border-top: none;
+   width: 200px;
+   margin: 25px auto;
+   position: relative;
+   top: 20px;
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-one-content .one-content .borders hr:nth-child(1){
+   border-top: 4px solid #007bff;
+   width: 30px;
+   margin-left: -1px;
+     
+ }
+ #bluetooth .container .bluetooth-bottom .px-one-content .one-content .borders hr:nth-child(2){
+    border-top: 4px solid #007bff;
+    width: 35px;
+    margin-left: 157px;
+    margin-top: -20px;
+      
+  }
+#bluetooth .container .bluetooth-bottom  .px-one-content .one-content .borders p:nth-child(3){
+    font-size: 20px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Medium;
+    width: 118px;
+    margin: 0 auto;
+    margin-top: -35px;  
+  }
+  #bluetooth .container .bluetooth-bottom .px-one-content .one-content .borders p:nth-child(4){
+    font-size: 12px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem; 
+    width: 156px;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+  }
+#bluetooth .container .bluetooth-bottom .two{
+    text-align: center;
+    line-height: 60px;
+    padding-top: 51px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    z-index: 2;
+    
+}
+#bluetooth .container .bluetooth-bottom .two img{
+    width: 49px;
+    height: 49px;   
+}
+#bluetooth .container .bluetooth-bottom .px-two-content .two-content{
+    width: 245px;
+    height: 245px;
+    margin-top: -45px;
+    margin-left: -227px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    opacity: 0;
+
+    
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-two-content .two-content .borders{
+   border: 4px solid #007bff;
+   border-top: none;
+   width: 200px;
+   margin: 25px auto;
+   position: relative;
+   top: 20px;
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-two-content .two-content .borders hr:nth-child(1){
+   border-top: 4px solid #007bff;
+   width: 30px;
+   margin-left: -1px;
+     
+ }
+ #bluetooth .container .bluetooth-bottom .px-two-content .two-content .borders hr:nth-child(2){
+    border-top: 4px solid #007bff;
+    width: 35px;
+    margin-left: 157px;
+    margin-top: -20px;
+      
+  }
+#bluetooth .container .bluetooth-bottom  .px-two-content .two-content .borders p:nth-child(3){
+    font-size: 20px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Medium;
+    width: 112px;
+    margin: 0 auto;
+    margin-top: -35px;  
+  }
+  #bluetooth .container .bluetooth-bottom .px-two-content .two-content .borders p:nth-child(4){
+    font-size: 12px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem; 
+    width: 156px;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+  }
+#bluetooth .container .bluetooth-bottom .three{
+    text-align: center;
+    line-height: 60px;
+    padding-top: 51px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    z-index: 2;
+}
+#bluetooth .container .bluetooth-bottom .three img{
+    width: 49px;
+    height: 49px;   
+}
+
+
+#bluetooth .container .bluetooth-bottom .px-three-content .three-content{
+    width: 245px;
+    height: 245px;
+    margin-top: -45px;
+    margin-left: -227px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    opacity: 0;
+    
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-three-content .three-content .borders{
+   border: 4px solid #007bff;
+   border-top: none;
+   width: 200px;
+   margin: 25px auto;
+   position: relative;
+   top: 20px;
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-three-content .three-content .borders hr:nth-child(1){
+   border-top: 4px solid #007bff;
+   width: 30px;
+   margin-left: -1px;
+     
+ }
+ #bluetooth .container .bluetooth-bottom .px-three-content .three-content .borders hr:nth-child(2){
+    border-top: 4px solid #007bff;
+    width: 35px;
+    margin-left: 157px;
+    margin-top: -20px;
+      
+  }
+#bluetooth .container .bluetooth-bottom  .px-three-content .three-content .borders p:nth-child(3){
+    font-size: 20px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Medium;
+    width: 112px;
+    margin: 0 auto;
+    margin-top: -35px;  
+  }
+  #bluetooth .container .bluetooth-bottom .px-three-content .three-content .borders p:nth-child(4){
+    font-size: 12px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem; 
+    width: 156px;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+  }
+
+  
+#bluetooth .container .bluetooth-bottom .four{
+    text-align: center;
+    line-height: 60px;
+    padding-top: 51px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    z-index: 2;
+}
+#bluetooth .container .bluetooth-bottom .four img{
+    width: 49px;
+    height: 49px;   
+}
+
+#bluetooth .container .bluetooth-bottom .px-four-content .four-content{
+    width: 245px;
+    height: 245px;
+    margin-top: -45px;
+    margin-left: -227px;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px 
+        rgba(51, 51, 51, 0.2);
+    opacity: 0.7;
+    opacity: 0;
+    
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-four-content .four-content .borders{
+   border: 4px solid #007bff;
+   border-top: none;
+   width: 200px;
+   margin: 25px auto;
+   position: relative;
+   top: 20px;
+    
+}
+#bluetooth .container .bluetooth-bottom  .px-four-content .four-content .borders hr:nth-child(1){
+   border-top: 4px solid #007bff;
+   width: 5px;
+   margin-left: -1px;
+     
+ }
+ #bluetooth .container .bluetooth-bottom .px-four-content .four-content .borders hr:nth-child(2){
+    border-top: 4px solid #007bff;
+    width: 5px;
+    margin-left: 187px;
+    margin-top: -20px;
+      
+  }
+#bluetooth .container .bluetooth-bottom  .px-four-content .four-content .borders p:nth-child(3){
+    font-size: 20px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Medium;
+    width: 170px;
+    margin: 0 auto;
+    margin-top: -35px;  
+  }
+  #bluetooth .container .bluetooth-bottom .px-four-content .four-content .borders p:nth-child(4){
+    font-size: 12px;
+    color: #007bff;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem; 
+    width: 156px;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+  }
+
+/*********************************Wi-Fi6样式********************************************/
+#Wi_Fi_6{
+    background:  url(../img/wifi6-footer.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+    min-width: 2500px;
+}
+#Wi_Fi_6 .container .left{
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 180px;
+}
+
+#Wi_Fi_6 .container .left img{
+     width:  303px;
+     height: 237px;
+     margin-top: -20px;
+     margin-left: -290px;
+     position: absolute;
+}
+#Wi_Fi_6 .container .left .one{
+   font-size: 28px;
+   font-family: SourceHanSansCN-Medium;
+   margin-top: 55px;
+   margin-left: -150px;
+}
+#Wi_Fi_6 .container .left .one span{
+    font-size: 18px;
+    font-family: SourceHanSansCN-Regular;
+ }
+#Wi_Fi_6 .container .left .two{
+    width: 560px;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: -150px;
+    line-height: 30px;
+ }
+ #Wi_Fi_6 .container .right{
+     margin-left: 180px;
+ }
+ #Wi_Fi_6 .container .right div{
+    width:  197px;
+    height: 263px;
+    background: #fff;
+ }
+ #Wi_Fi_6 .container .right .one{
+     border: 4px solid #007bff;
+     position: absolute;
+     margin-left: 570px;
+     margin-top: 35px;
+ }
+ #Wi_Fi_6 .container .right .one p:nth-child(1){ 
+    font-size: 14px;
+    font-family: SourceHanSansCN-Bold;
+    text-align: center;
+    margin-top: 31px;
+}
+#Wi_Fi_6 .container .right .one p:nth-child(2){ 
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem;
+    text-align: left;
+    width: 172px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+#Wi_Fi_6 .container .right .one img {
+    width: 51px;
+    height: 51px;
+    margin-top: 55px;
+}
+ #Wi_Fi_6 .container .right .two{
+    border: 4px solid #007bff;
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 168px;
+}
+#Wi_Fi_6 .container .right .two p:nth-child(1){ 
+    font-size: 14px;
+    font-family: SourceHanSansCN-Bold;
+    text-align: center;
+    margin-top: 31px;
+}
+#Wi_Fi_6 .container .right .two p:nth-child(2){ 
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem;
+    text-align: left;
+    width: 172px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+#Wi_Fi_6 .container .right .two img {
+    width: 51px;
+    height: 51px;
+    margin-top: 90px;
+}
+#Wi_Fi_6 .container .right .three{
+    border: 4px solid #007bff;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 305px;
+}
+#Wi_Fi_6 .container .right .three p:nth-child(1){ 
+    font-size: 14px;
+    font-family: SourceHanSansCN-Bold;
+    text-align: center;
+    margin-top: 31px;
+}
+#Wi_Fi_6 .container .right .three p:nth-child(2){ 
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem;
+    text-align: left;
+    width: 172px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+#Wi_Fi_6 .container .right .three img {
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 140px;
+}
+#Wi_Fi_6 .container .right .four{
+    border: 4px solid #007bff;
+    position: absolute;
+    margin-left: 955px;
+    margin-top:175px;
+}
+#Wi_Fi_6 .container .right .four p:nth-child(1){ 
+    font-size: 14px;
+    font-family: SourceHanSansCN-Bold;
+    text-align: center;
+    margin-top: 31px;
+}
+#Wi_Fi_6 .container .right .four p:nth-child(2){ 
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    text-indent: 2rem;
+    text-align: left;
+    width: 172px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+#Wi_Fi_6 .container .right .four img {
+    width: 51px;
+    height: 51px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+/*********************************NB网络样式********************************************/
+#NB{
+    background:  url(../img/NB-footer.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+    min-width: 2500px;
+    margin-top: 102px;
+
+}
+
+#NB .container .only{
+    width: 1441px;
+	height: 661px;
+	background-image: linear-gradient(0deg, 
+		rgba(255, 255, 255, 0.5) 0%, 
+		rgba(128, 128, 203, 0.5) 0%, 
+		rgba(0, 0, 150, 0.5) 0%, 
+		rgba(102, 102, 177, 0.5) 0%, 
+		rgba(204, 204, 204, 0.5) 0%, 
+		#ffffff 100%);
+	box-shadow: 0px 2px 6px 0px 
+        rgba(66, 63, 182, 0.34);
+    position: absolute;   
+    margin-top: 87px;
+    margin-left: -40px;
+
+}
+#NB .container .only .left-top p:nth-child(1){
+     color: #007bff;
+     font-size: 58px;
+     margin-left: 81px;
+     margin-top: 10px;
+}
+#NB .container .only .left-top p:nth-child(2){
+    color: #007bff;
+    font-size: 50px;
+    font-family: SourceHanSansSC-Bold;
+    margin-left: 121px;
+    margin-top: -70px;
+    position: relative;
+}
+#NB .container .only .left-top p:nth-child(3){
+    color: #007bff;
+    font-size: 58px;
+    margin-left: 384px;
+    margin-top: -70px;
+}
+#NB .container .only .left-bottom img{
+   
+    margin-left: 89px;
+    margin-top: 130px;
+}
+#NB .container .only .right{
+   margin-left: 420px;
+   margin-top: -300px;
+}
+#NB .container .only .right p:nth-child(1){
+   width: 893px;
+   position: relative;
+   margin-top: -70px;
+   font-size: 24px;
+   text-indent: 2rem;
+   line-height: 36px;
+   font-family: SourceHanSansCN-Regular;
+   
+}
+#NB .container .only .right p:nth-child(2){
+   
+    width: 893px;
+    font-size: 24px;
+    text-indent: 2rem;
+    line-height: 36px;
+    font-family: SourceHanSansCN-Regular;
+}
+/*********************************传感器样式********************************************/
+#sensor{
+    background:  url(../img/sensor-footer.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    min-width: 2500px;
+    margin-top: 260px;
+}
+
+#sensor .container .top span{
+	font-family: SourceHanSansSC-Medium;
+	font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 48px;
+}
+#sensor .container .top ul{
+    font-size: 24px;
+    color: #fff;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    line-height: 60px;
+}
+
+#sensor .container .top li{
+   margin-top: 40px;
+   z-index: 2;
+}
+
+#sensor .container .top li:first-child{
+    border-bottom: 4px solid #007bff;
+   
+ }
+ 
+
+#sensor .container .top hr{
+   width: 1196px;
+   border: 1px solid #ccc;
+   position: absolute;
+   margin-top: 110px;
+
+}
+#sensor .container .bottom .left{
+    width: 249px;
+    height: 300px;
+    position: absolute;
+    margin-top: 125px;
+ }
+ #sensor .container .bottom .left div{
+    width: 249px;
+    height: 100px;
+    background: #f5f5f5;
+    box-shadow: inset -10px 0px 6px 0px 
+		rgba(173, 173, 173, 0.3);
+ }
+ #sensor .container .bottom .left .one {
+     background: #fff;
+ }
+
+ #sensor .container .bottom .left .one img{
+    width: 41px;
+    height: 41px;
+    margin-top: 29px;
+    margin-left: 33px;
+ }
+ #sensor .container .bottom .left .one span{
+    font-family: SourceHanSansSC-Medium;
+    font-size: 20px;
+    margin-top: 39px;
+    width: 145px;
+    position: absolute;
+    margin-left: 5px;
+ }
+ #sensor .container .bottom .left .two img{
+    width: 41px;
+    height: 41px;
+    margin-top: 29px;
+    margin-left: 33px;
+ }
+ #sensor .container .bottom .left .two span{
+    font-family: SourceHanSansSC-Medium;
+    font-size: 20px;
+    margin-top: 39px;
+    width: 145px;
+    position: absolute;
+    margin-left: 5px;
+ }
+ #sensor .container .bottom .left .three img{
+    width: 41px;
+    height: 41px;
+    margin-top: 29px;
+    margin-left: 33px;
+ }
+ #sensor .container .bottom .left .three span{
+    font-family: SourceHanSansSC-Medium;
+    font-size: 20px;
+    margin-top: 39px;
+    width: 145px;
+    position: absolute;
+    margin-left: 5px;
+ }
+ #sensor .container .bottom .right{
+    width: 951px;
+    height: 300px;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 249px;
+    background: #fff;
+ }
+ #sensor .container .bottom .right p  span:nth-child(1){
+   font-size: 80px;
+    font-family: WenQuanYiZenHei;
+   margin-top: -20px;
+   color: #ddd;
+
+ }
+ #sensor .container .bottom .right p span:nth-child(2){
+    font-size: 16px;
+    font-family: SourceHanSansSC-Bold;
+    position: absolute;
+    margin-top: 25px;
+    
+  }
+
+  #sensor .container .bottom .right p:nth-child(2){
+    font-size: 16px;
+    font-family: WenQuanYiZenHei;
+    color: #666;
+    width: 664px;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 43px;
+    line-height: 28px;
+    
+  }
+
+  #sensor .container .bottom .right p:nth-child(2)+span{
+    font-size: 80px;
+    margin-left: 675px;
+    position: absolute;
+    margin-top: 40px;
+    color: #ddd; 
+  }
+  #sensor .container .bottom .right img{
+    
+    margin-left: 739px;
+    position: absolute;
+    margin-top: -112px;
+  }
+  #sensor .container .bottom .right img+span{
+    font-size: 14px;
+    margin-left: 739px;
+    position: absolute;
+    margin-top: 78px;
+    font-family: WenQuanYiZenHei;
+  }
+
+
+/*********************************数字化地图服务样式********************************************/
+#digital_map_service{
+    background:  url(../img/digital_map_service_footer.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+    min-width: 2500px;
+    margin-top: 241px;
+}
+
+#digital_map_service .container .left{
+    width: 480px;
+    height: 300px;
+    background-color: #007bff;
+	box-shadow: 0px 0px 6px 0px 
+        rgba(0, 0, 150, 0.58);
+    position: absolute;
+    margin-top: -141px;
+}
+#digital_map_service .container .left img:nth-child(5){
+    width: 79px;
+    height: 193px;
+}
+#digital_map_service .container .left p{
+    font-size: 20px;
+    color: #fff;
+    font-family: SourceHanSansSC-Bold;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 46px;
+
+}
+#digital_map_service .container .left ul{
+    width: 280px;
+    margin-left: 55px;
+}
+#digital_map_service .container .left ul>li{
+    font-size: 16px;
+    color: #fff;
+    font-family: SourceHanSansSC-Regular;
+    line-height: 28px;
+    width: 370px;
+    margin: 0 auto;
+}
+
+#digital_map_service .container .left ul li:nth-child(1){
+        font-family: "SourceHanSansSC-Bold";
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+        width: 360px;
+}
+
+#digital_map_service .container .left ul li:nth-child(2){
+    width: 305px;
+}
+
+#digital_map_service .container .left ul li:nth-child(3){
+    width: 290px;
+}
+
+#digital_map_service .container .left .img1{
+    
+    margin-top: 60px;
+}
+#digital_map_service .container .left .img2{
+    margin-left: 210px;
+    margin-top: -90px;
+}
+#digital_map_service .container .left .img3{
+   width: 78px;
+   height: 192px;
+   position: absolute;
+   margin-left: 60px;
+   margin-top: -70px;
+}
+
+
+#digital_map_service .container .center p{
+    width: 360px;
+    font-size: 50px;
+    font-family: SourceHanSansSC-Bold;
+    color: #fff;
+    margin-left: 520px;
+    position: absolute;
+    margin-top: 16px;
+    
+ }
+
+ #digital_map_service .container .center img{
+    margin-left: 520px;
+    position: absolute;
+    margin-top: 96px;
+    
+ }
+
+ #digital_map_service .container .right{
+    width: 480px;
+    height: 300px;
+    background: #007bff;
+    box-shadow: 0px 0px 6px 0px 
+		rgba(0, 0, 150, 0.58);
+    position: absolute;
+    margin-top: 152px;
+    margin-left: 715px;
+    
+ }
+
+ #digital_map_service .container .right p:nth-child(1){
+    width: 456px;
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 59px;  
+ }
+
+ #digital_map_service .container .right p:nth-child(2){
+    width: 456px;
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 8px;  
+    line-height: 28px;
+ }
+
+ #digital_map_service .container .right img{
+    margin-left: 410px;
+    margin-top: -20px;  
+    
+ }
+
+/*********************************底部导航栏样式********************************************/
+#bottom{
+    background: #fff;
+    margin-top: 245px;
+    min-width: 2500px;
+}
+
+#bottom hr{
+    border: 1px solid #eee;
+}
+
+/* #bottom .top ul{
+    display: flex;
+    width: 1248px;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    margin-top: 30px;
+} */
+#bottom .bottom ul p{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    margin-top: -40px;
+    width: 200px;
+}
+
+#bottom .bottom{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -300px;
+    width: 2000px;
+    justify-content: space-around;
+    line-height: 30px;
+    margin-top: 70px;
+    font-family: SourceHanSansCN-Normal;
+    font-size: 14px;
+    color: #999;
+}
+
+#bottom .record{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 12px;
+    color: #999;
+    width: 386px;
+    margin: 0 auto;
+    margin-top: 67px;
+    text-align: center;
+    line-height: 5px;
+
+}

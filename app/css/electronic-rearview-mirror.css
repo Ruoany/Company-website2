@@ -1,0 +1,595 @@
+/*********************************通用样式********************************************/
+body{
+    color: #000;
+    font-family: SourceHanSansSC-Normal;
+    overflow-x: scroll;
+}
+a{
+    color: #999;
+}
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/*********************************头部导航栏样式********************************************/
+#head{
+    min-width: 1000px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+  
+}
+#head .hr_head{
+    background:#000 !important;   
+}
+#head  .navbar{
+    background-color: #000;  
+}
+#head  img{
+    width: 75px;
+    height: 61px;
+}
+
+#head .logo{
+    margin-left: -1.5rem;
+    margin-top: 1.5rem;
+    float:right;
+}
+
+#head .logo p{
+    line-height: 0.5rem;
+    text-align: center;
+    font-family: SourceHanSansSC-Medium;
+    color: #fff;
+    
+}
+
+#head .logo p:first-child{
+    font-size: 28px;
+}
+#head .logo p:last-child{
+    font-size: 18px;
+}
+
+#head .bg-light{
+    background-color: #000;
+}
+
+.navbar-nav .nav-item .nav-link{
+     color: #fff;
+     font-size: 20px;
+     border-bottom: #007bff;
+}
+.navbar-nav .nav-item .hr-link{
+   color: #007bff;
+   border-bottom: 2px solid #007bff;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #007bff;   
+}
+
+/*********************************头部样式********************************************/
+.header .top{
+    background:  url(../img/catalog-three.png) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+    min-width: 2600px;
+    margin-top: 88px;
+}
+
+.header .top .container p:nth-child(1){
+   color: #fff;
+   font-family: SourceHanSansSC-Medium;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 138px;
+}
+.header .top .container p:nth-child(2){
+    color: #fff;
+    font-family: SourceHanSansSC-Medium;
+    font-size: 30px;
+    text-align: center;
+    width: 1100px;
+ }
+/*********************************主体内容样式********************************************/
+
+ .content .container{
+     min-width: 2600px;
+ }
+ .content .container img{
+    margin-top: 101px;
+    margin-left: 800px;
+}
+
+.content .container p:nth-child(2){
+    font-family: SourceHanSansSC-Normal;
+    font-size: 20px;
+    width: 340px;
+    margin-top: -380px;
+    margin-left: 1390px;
+    position: absolute;
+}
+
+.content .container p:nth-child(3){
+    font-family: SourceHanSansSC-Medium;
+	font-size: 30px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.content .container ul:nth-child(4){
+    font-family: SourceHanSansSC-Normal;
+	font-size: 20px;
+    width: 950px;
+    margin-left: 800px;
+    margin-top: 10px;
+    line-height: 32px;
+}
+
+.content .container p:nth-child(6){
+    font-family: SourceHanSansSC-Medium;
+	font-size: 30px;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.content .container .middle{
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.content .container .middle .one .outside{
+    border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    border: 2px dotted #007bff;
+}
+
+.content .container .middle .one .inside{
+    border-radius: 50%;
+	width: 170px;
+    height: 170px; 
+    border: 2px solid #007bff;
+    margin: 15px auto;
+    background: #007bff;
+}
+.content .container .middle .one .inside p{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.content .container .middle .two .outside{
+    border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    border: 2px dotted #007bff;
+}
+
+.content .container .middle .two .inside{
+    border-radius: 50%;
+	width: 170px;
+    height: 170px; 
+    border: 2px solid #007bff;
+    margin: 15px auto;
+}
+.content .container .middle .two .inside p{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.content .container .middle .three .outside{
+    border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    border: 2px dotted #007bff;
+}
+
+.content .container .middle .three .inside{
+    border-radius: 50%;
+	width: 170px;
+    height: 170px; 
+    border: 2px solid #007bff;
+    margin: 15px auto;
+}
+.content .container .middle .three .inside p{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    margin: 40px auto;
+}
+.content .container .middle .four .outside{
+    border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    border: 2px dotted #007bff;
+}
+
+.content .container .middle .four .inside{
+    border-radius: 50%;
+	width: 170px;
+    height: 170px; 
+    border: 2px solid #007bff;
+    margin: 15px auto;
+}
+.content .container .middle .four .inside p{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.content .container .middle-content p:nth-child(1){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.content .container .middle-content p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    width: 690px;
+    margin-left: 940px;
+    margin-top: 10px;
+    text-indent: 2rem;
+    text-align: left;
+}
+
+.content .container .middle-2 p:nth-child(1){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 30px;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.content .container .middle-2 .one {
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 520px;
+    background: #007bff;
+}
+
+.content .container .middle-2 .one .serial{
+    border-radius: 50%;
+	width: 40px;
+    height: 40px; 
+    background: #007bff;
+}
+
+.content .container .middle-2 .one .serial span{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 30px;
+    color: #fff;
+    width: 15px;
+    margin: 0 auto;
+    margin-left: 12px;
+}
+.content .container .middle-2 .one p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #fff;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.content .container .middle-2 .one p:nth-child(3){
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 520px;
+    text-indent: 4rem;
+    border-bottom: 2px solid #007bff;
+}
+
+.content .container .middle-2 .two {
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 520px;
+}
+
+.content .container .middle-2 .two .serial{
+    border-radius: 50%;
+	width: 40px;
+    height: 40px; 
+    background: #007bff;
+}
+
+.content .container .middle-2 .two .serial span{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 30px;
+    color: #fff;
+    width: 15px;
+    margin: 0 auto;
+    margin-left: 12px;
+}
+.content .container .middle-2 .two p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #007bff;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.content .container .middle-2 .two p:nth-child(3){
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #007bff;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 520px;
+    text-indent: 4rem;
+    border-bottom: 2px solid #007bff;
+}
+.content .container .middle-2 .three {
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 520px;
+}
+
+.content .container .middle-2 .three .serial{
+    border-radius: 50%;
+	width: 40px;
+    height: 40px; 
+    background: #007bff;
+}
+
+.content .container .middle-2 .three .serial span{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 30px;
+    color: #fff;
+    width: 15px;
+    margin: 0 auto;
+    margin-left: 12px;
+}
+.content .container .middle-2 .three p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #007bff;
+    width: 400px;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.content .container .middle-2 .three p:nth-child(3){
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #007bff;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 520px;
+    text-indent: 4rem;
+    border-bottom: 2px solid #007bff;
+}
+
+.content .container .middle-2 .four {
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 520px;
+}
+
+.content .container .middle-2 .four .serial{
+    border-radius: 50%;
+	width: 40px;
+    height: 40px; 
+    background: #007bff;
+}
+
+.content .container .middle-2 .four .serial span{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 30px;
+    color: #fff;
+    width: 15px;
+    margin: 0 auto;
+    margin-left: 12px;
+}
+.content .container .middle-2 .four p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #007bff;
+    width: 400px;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.content .container .middle-2 .four p:nth-child(3){
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #007bff;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 520px;
+    text-indent: 4rem;
+    border-bottom: 2px solid #007bff;
+}
+
+.content .container .middle-2 .five {
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 520px;
+}
+
+.content .container .middle-2 .five .serial{
+    border-radius: 50%;
+	width: 40px;
+    height: 40px; 
+    background: #007bff;
+}
+
+.content .container .middle-2 .five .serial span{
+    font-family: SourceHanSansSC-Bold;
+    font-size: 30px;
+    color: #fff;
+    width: 15px;
+    margin: 0 auto;
+    margin-left: 12px;
+}
+.content .container .middle-2 .five p:nth-child(2){
+    font-family: SourceHanSansSC-Bold;
+    font-size: 20px;
+    color: #007bff;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.content .container .middle-2 .five p:nth-child(3){
+    font-family: SourceHanSansSC-Regular;
+	font-size: 16px;
+    color: #007bff;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 520px;
+    text-indent: 4rem;
+    border-bottom: 2px solid #007bff;
+}
+
+.content .container .middle-2 img{
+    margin-top: -600px;
+    padding-left: 600px;
+    width: 1100px;
+}
+
+.content .container .middle-3 p:nth-child(1){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 30px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.content .container .middle-3 .img{
+    display: flex;
+}
+.content .container .middle-3 .img img:nth-child(1){
+    margin-left: 1120px;
+}
+.content .container .middle-3 .img img:nth-child(2){
+    margin-left: -300px;
+}
+.content .container .middle-3 .img img:nth-child(3){
+    margin-left: -300px;
+}
+
+
+.content .container .middle-3 .text p:nth-child(1){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 24px;
+    color: #ff0000;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 1300px;
+}
+.content .container .middle-3 .text p:nth-child(2){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 24px;
+    color: #ffa500;
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 1300px;
+    width: 350px;
+}
+
+.content .container .middle-3 .text p:nth-child(3){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 24px;
+    color:#008000;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 1300px;
+    width: 350px;
+}
+.content .container .middle-3 .text p:nth-child(4){
+    font-family: SourceHanSansSC-Medium;
+    font-size: 24px;
+    color: #efef00;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 1300px;
+    width: 350px;
+}
+.content .container .middle-3 .text p:nth-child(5){
+    font-family: SourceHanSansSC-Medium;
+	font-size: 18px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1300px;
+    width: 420px;
+    line-height: 32px;
+}
+.content .container .bottom img {
+    margin-top: 40px;
+}
+
+/*********************************底部导航栏样式********************************************/
+#bottom{
+    background: #fff;
+    margin-top: 45px;
+    min-width: 2500px;
+}
+
+#bottom hr{
+    border: 1px solid #eee;
+}
+
+/* #bottom .top ul{
+    display: flex;
+    width: 1248px;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    margin-top: 30px;
+} */
+#bottom .bottom ul p{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    margin-top: -40px;
+    width: 200px;
+}
+
+#bottom .bottom{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -300px;
+    width: 2000px;
+    justify-content: space-around;
+    line-height: 30px;
+    margin-top: 70px;
+    font-family: SourceHanSansCN-Normal;
+    font-size: 14px;
+    color: #999;
+}
+
+#bottom .record{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 12px;
+    color: #999;
+    width: 386px;
+    margin: 0 auto;
+    margin-top: 67px;
+    text-align: center;
+    line-height: 5px;
+
+}
